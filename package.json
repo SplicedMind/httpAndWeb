@@ -1,0 +1,28 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Basic JavaScript project to consume a public API using HTTP client library",
+  "main": "app/httpWeb.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SplicedMind/httpAndWeb.git"
+  },
+  "author": "Akinbode Femi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SplicedMind/httpWeb/issues"
+  },
+  "homepage": "https://github.com/SplicedMind/httpWeb#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "httpclient": "^0.1.0",
+    "request": "^2.79.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
